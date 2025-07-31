@@ -1,0 +1,42 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-container{
+    padding: 4rem 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-container:nth-child(even){
+    background-color: #eaeaea;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-container:nth-child(odd){
+    background-color: rgb(227, 227, 227);
+}
+
+.section-container h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.section-container h2::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, rgb(87, 87, 255), rgb(0, 0, 140));
+    transform: translateX(-50%);
+}

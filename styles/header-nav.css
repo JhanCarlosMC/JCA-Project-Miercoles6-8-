@@ -1,0 +1,70 @@
+/*Header Y Nav*/
+#header {
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#header h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 300px;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20px;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+    position: relative;
+}
+
+nav a:hover {
+    /*Pseudoclase*/
+    color: blue;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 490px) {
+
+    #header {
+        position: sticky;
+    }
+
+    #header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}

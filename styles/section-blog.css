@@ -1,0 +1,16 @@
+.blog-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.new-post-btn{
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px; 
+    border: none;
+    cursor: pointer;
+}

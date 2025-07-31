@@ -1,0 +1,30 @@
+/**
+ * Media Queries
+ *
+ * @media "tipoContexto" and ("condicion"){
+ *      Estilos
+ *}
+ */
+
+body {
+    background-color: red;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: blue;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: yellow;
+    }
+}

@@ -6,31 +6,21 @@ Selector{
 }
 */
 /*Config Basicas - Reset*/
-*{
+@import "general-sections.css";
+@import "header-nav.css";
+@import "section-aboutme.css";
+@import "section-projects.css";
+@import "section-blog.css";
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: #000;
     background-color: rgb(225, 225, 225);
-}
-
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-#header{
-    background-color: black;
-    position: sticky;
-    top: 0;
-}
-#header h1{
-    color: white;
-    font-size: 2rem;
-    font-weight: 300px;
 }
