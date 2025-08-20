@@ -36,7 +36,7 @@ let indefinido;
 let id = "12121";
 id = "hola";
 const id2 = "121211";
-id2 = "Adios";
+// id2 = "Adios";
 
 // ---------------- Operadores ----------------
 //Aritmeticos
@@ -59,3 +59,67 @@ let menorIgual = 2<=2;
 let and = true && true;
 let or = true || false;
 let not = !true;
+
+
+// ------------- Estructura de Control -------------
+//IF
+// if(condicion){
+//  //Codigo en cado de que la condicion sea TRUE
+// }
+
+// if(2>3){
+//     console.log("Condicion verdadera");
+// }
+
+// //if-else
+// if(2>3){
+//     console.log("Condicion verdadera");
+// }else{
+//     console.log("Condicion falsa");
+// }
+
+// if(edad >= 18 && nombre == "Jhan" || nombre != "Aaron"){
+//     console.log("Es mayor de edad");
+// }
+
+
+// //If anidados
+// if(true){
+//     if(true){
+//         console.log("Condicion verdadera");
+//     }else{
+//         console.log("Condicion falsa");
+//     }
+// }
+
+// if(false){
+//     console.log("Condicion verdadera");
+// }else if(true){
+//     console.log("Condicion verdadera if anidado");
+// }else{
+//     console.log("Condicion falsa");
+// }
+
+// ------------- Estructuras Ciclicas/Repeticion -------------
+// Inicio - Condicion de Parada - Incremento
+//For
+console.log("Ejecucion For");
+for(let i = 1; i <= 10; i++){
+    console.log(i);
+}
+
+console.log("Ejecucion While");
+//While
+let i = 1;
+while(i<=10){
+    console.log(i);
+    i++;
+}
+
+console.log("Ejecucion Do-While");
+//Do-while
+i = 1;
+do{
+    console.log(i);
+    i++;
+}while(i<=10);
