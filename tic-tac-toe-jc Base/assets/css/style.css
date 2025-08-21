@@ -197,3 +197,7 @@ button {
         gap: 10px;
     }
 }
+
+.title {
+    color: green;
+}
