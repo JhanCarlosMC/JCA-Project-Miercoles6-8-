@@ -1,0 +1,23 @@
+{
+  "name": "jca-project-miercoles-68",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhanCarlosMC/JCA-Project-Miercoles6-8-.git"
+  },
+  "keywords": [],
+  "author": "Jhan Carlos Martinez Ceballos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhanCarlosMC/JCA-Project-Miercoles6-8-/issues"
+  },
+  "homepage": "https://github.com/JhanCarlosMC/JCA-Project-Miercoles6-8-#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
