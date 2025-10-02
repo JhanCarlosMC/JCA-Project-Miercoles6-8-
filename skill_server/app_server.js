@@ -75,3 +75,18 @@ app.delete("/skills/:skillDelete",(req,res) =>{
     skm.eliminar_skill(skillDelete);
     res.json({message: "Skill eliminada", list_skills: skm.obtener_skills()});
 })
+
+//Endpoint Actualizar habilidad
+//Con parametros por url -> Identificar recurso
+//Body -> JSON
+app.put("/skills/:id",(req,res) =>{
+    const id = parseInt(req.params.id);
+    const {skill} = req.body;
+
+    if(!skill){
+        return res.status(404).json({message: "Skill no suministrada"});
+    }
+
+    skm.actualizar_skill(id, skill);
+    res.status(200).json({message: "Skill actualizada", list_skills: skm.obtener_skills()});
+})

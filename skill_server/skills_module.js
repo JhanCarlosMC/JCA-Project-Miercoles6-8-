@@ -28,6 +28,13 @@ function actualizar_skill(indexSkill, newSkill){
     list_skills[indexSkill] = newSkill;
 }
 
+function actualizarUser(user){
+    const index = list_skills.indexOf(user.userName);
+    if(index !== -1){
+        list_skills[index] = user;
+    }
+}
+
 //CRUD
 //C - Create
 //R - Read
