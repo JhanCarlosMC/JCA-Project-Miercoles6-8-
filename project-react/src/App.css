@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+div{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #172d4f 0%, #002560 100%);
+  border: 1px solid #515151;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 1.2rem;
+  margin: 12px 0px;
+  line-height: 1.5;
+}
