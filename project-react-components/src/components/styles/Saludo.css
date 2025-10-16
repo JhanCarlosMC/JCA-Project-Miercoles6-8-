@@ -1,0 +1,18 @@
+.saludo-container{
+    max-width: 400px;
+    background-color: #252525ff;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    margin: 20px;
+}
+
+.saludo-header{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
