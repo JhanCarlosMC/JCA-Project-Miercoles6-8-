@@ -1,0 +1,74 @@
+[
+  {
+    "name": "iPhone 15 Pro",
+    "price": 999,
+    "category": "Electrónicos",
+    "id": "1"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "price": 150,
+    "category": "Calzado Deportivo",
+    "id": "2"
+  },
+  {
+    "name": "Kindle Paperwhite",
+    "price": 139,
+    "category": "Libros Electrónicos",
+    "id": "3"
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "price": 299,
+    "category": "Wearables",
+    "id": "4"
+  },
+  {
+    "name": "PlayStation 5",
+    "price": 499,
+    "category": "Videojuegos",
+    "id": "5"
+  },
+  {
+    "name": "MacBook Air M2",
+    "price": 1099,
+    "category": "Computadoras",
+    "id": "6"
+  },
+  {
+    "name": "Nespresso Essenza Mini",
+    "price": 169,
+    "category": "Electrodomésticos",
+    "id": "7"
+  },
+  {
+    "name": "Adidas Ultraboost 22",
+    "price": 180,
+    "category": "Calzado Deportivo",
+    "id": "8"
+  },
+  {
+    "name": "Canon EOS R50",
+    "price": 679,
+    "category": "Fotografía",
+    "id": "9"
+  },
+  {
+    "name": "Dyson V15 Detect",
+    "price": 749,
+    "category": "Aspiradoras",
+    "id": "10"
+  },
+  {
+    "name": "Apple AirPods Pro",
+    "price": 249,
+    "category": "Audio",
+    "id": "11"
+  },
+  {
+    "name": "Instant Pot Duo Plus",
+    "price": 119,
+    "category": "Electrodomésticos de Cocina",
+    "id": "12"
+  }
+]
