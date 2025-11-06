@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.json());
 
 const MONGO_URL = "mongodb+srv://jcmctestpass:jcmctestpass@proexnomo.iexti3r.mongodb.net/?retryWrites=true&w=majority&appName=ProExNoMo";
-// const MONGO_URL =  "mongodb+srv://jacobogarcesoquendo:aFJzVMGN3o7fA38A@cluster0.mqwbn.mongodb.net/{nombre}"
+// const MONGO_URL =  "mongodb+srv://jacobogarcesoquendo:aFJzVMGN3o7fA38A@cluster0.mqwbn.mongodb.net/JhanCarlosMC"
 mongoose.connect(MONGO_URL)
     .then(() => {
         console.log("Conexion a MongoDB exitosa");
